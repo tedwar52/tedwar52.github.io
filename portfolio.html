@@ -5,7 +5,8 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>1.2.9 Exercise</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
 
     <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
 
@@ -23,7 +24,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -46,27 +47,29 @@
     </div>
 
     <!--This will display 4 separate links to deployed web apps-->
-    <div class="container">
+    <div class="container-fluid">
         <div class="card">
             <div class="row">
-                <div class="col border border-dark">
+                <div class="col-lg-6 border border-dark">
                     <img src="images/rainingplaylists.png">
                     <a href="https://carolinem15.github.io/FirstProject/" class="text-nowrap">Project 1: It's Raining
                         Playlists</a>
                     <a href="https://github.com/carolinem15/FirstProject">Github Repo</a>
                 </div>
-                <div class="col border border-dark">
+                <div class="col-lg-6 border border-dark">
                     <img src="images/weather.png">
                     <a href="https://tedwar52.github.io/Weather-Dashboard/">Weather Dashboard</a>
                     <a href="https://github.com/tedwar52/Weather-Dashboard">Github Repo</a>
                 </div>
-                <div class="w-100"></div>
-                <div class="col border border-dark">
+            </div>
+            <div class="row">
+                <!--<div class="w-100"></div>-->
+                <div class="col-lg-6 border border-dark">
                     <img src="images/quizlet.png">
                     <a href="https://tedwar52.github.io/Quizlet/">Quizlet</a>
                     <a href="https://github.com/tedwar52/Quizlet">Github Repo</a>
                 </div>
-                <div class="col border border-dark">
+                <div class="col-lg-6 border border-dark">
                     <img src="images/mysql.png">
                     <a href="#">Employee Tracker</a>
                     <a href="https://github.com/tedwar52/Employee-Tracker">Github Repo</a>
